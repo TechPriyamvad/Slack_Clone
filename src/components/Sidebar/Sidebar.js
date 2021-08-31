@@ -36,7 +36,6 @@ function Sidebar() {
     <div className="sidebar">
       <div className="siderbar-header">
         <div className="sidebar-info">
-          <h2>Geliştiren Kafalar</h2>
           <h3>
             <FiberManualRecordIcon />
             {user?.displayName}
@@ -60,7 +59,7 @@ function Sidebar() {
       {/* Connect to db and list all the channels*/}
       {/* SidebarOptionn */}
       {channels.map((channel) => (
-        <SidebarOption title={channel.name} id={channel.id} />
+        <SidebarOption title={channel.name} key={channel.id} id={channel.id}/>
       ))}
     </div>
   );
