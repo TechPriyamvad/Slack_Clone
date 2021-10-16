@@ -20,7 +20,7 @@ Click demo to try it by yourself!
 
 ## Author
 
-Özge Coşkun Gürsucu (codermother)
+Priyamvad Acharya
 
 In the project directory, you can run:
 
